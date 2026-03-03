@@ -1,10 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
+Next.js App
+This is a Next.js project bootstrapped with create-next-app.
+It uses the App Router, TypeScript, and optimized fonts with next/font.
+🛠 Tech Stack
+⚡ Next.js
+⚛️ React
+🔤 TypeScript
+🎨 CSS (with global styles)
+🔠 Google Fonts via next/font (Inter)
+📂 Project Structure
+app/
+ ├── layout.tsx      # Root layout
+ ├── page.tsx        # Home page
+ ├── globals.css     # Global styles
+public/
+ ├── next.svg
+ ├── vercel.svg
+🚀 Getting Started
+1️⃣ Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+2️⃣ Run the development server
 npm run dev
 # or
 yarn dev
@@ -12,25 +32,27 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open your browser and go to:
+http://localhost:3000
+✏️ Editing the Project
+Start editing the homepage by modifying:
+app/page.tsx
+The page auto-updates as you save changes.
+🔤 Font Optimization
+This project uses next/font to automatically optimize and load the Inter font from Google Fonts.
+📚 Learn More
+To learn more about Next.js:
+📖 Next.js Documentation
+🎓 Learn Next.js (interactive tutorial)
+💻 Next.js GitHub Repository
+🚀 Deployment
+The easiest way to deploy this app is using:
+👉 Vercel
+You can deploy directly from your GitHub repository.
+For more details, check the official Next.js deployment documentation.
+📌 Features
+App Router structure
+Optimized image loading with next/image
+Automatic font optimization
+Production-ready configuration
+Easy deployment to Vercel
